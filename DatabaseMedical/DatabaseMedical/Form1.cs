@@ -20,38 +20,29 @@ namespace DatabaseMedical
 
         private void button1_Click(object sender, EventArgs e)
         {
-            PatientsDAO x = new PatientsDAO();
-            Patient a1 = new Patient
-            {
-                ID = 1,
-                LastName = "Cabarrubias",
-                FirstName = "Mitchel",
-                MiddleName = "Cantano",
-                SuffixName = "N/A",
-                BirthDate = DateTime.Now,
-                Address = "Camp 7"
-
-            };
-
-            Patient a2 = new Patient
-            {
-                ID = 1,
-                LastName = "Klein",
-                FirstName = "Anne",
-                MiddleName = "Eeep",
-                SuffixName = "N/A",
-                BirthDate = DateTime.Now,
-                Address = "Japan"
-
-            };
-
-            x.patients.Add(a1);
-            x.patients.Add(a2);
+            PatientsDAO patientsDAO = new PatientsDAO();
 
             // list connect
-            patientsBindingSource.DataSource = x.patients;
+            patientsBindingSource.DataSource = patientsDAO.GetAllPatients();
             dataGridView1.DataSource = patientsBindingSource;
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            PatientsDAO patientsDAO = new PatientsDAO();
+
+            // list connect
+            patientsBindingSource.DataSource = patientsDAO.SearchPatients(textBox1.Text);
+            dataGridView1.DataSource = patientsBindingSource;
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            DataGridView dataGridView = (DataGridView)sender;
+
+            int rowCLicked = dataGridView.CurrentRow.Index;
+            MessageBox.Show("You clicked row " + rowCLicked);
         }
     }
 }
