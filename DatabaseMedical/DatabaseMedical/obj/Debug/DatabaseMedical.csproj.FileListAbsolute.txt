@@ -1,0 +1,10 @@
+C:\Users\asus\gitProject\DatabaseMedical\DatabaseMedical\obj\Debug\DatabaseMedical.csproj.AssemblyReference.cache
+C:\Users\asus\gitProject\DatabaseMedical\DatabaseMedical\obj\Debug\DatabaseMedical.Form1.resources
+C:\Users\asus\gitProject\DatabaseMedical\DatabaseMedical\obj\Debug\DatabaseMedical.Properties.Resources.resources
+C:\Users\asus\gitProject\DatabaseMedical\DatabaseMedical\obj\Debug\DatabaseMedical.csproj.GenerateResource.cache
+C:\Users\asus\gitProject\DatabaseMedical\DatabaseMedical\obj\Debug\DatabaseMedical.csproj.CoreCompileInputs.cache
+C:\Users\asus\gitProject\DatabaseMedical\DatabaseMedical\bin\Debug\DatabaseMedical.exe.config
+C:\Users\asus\gitProject\DatabaseMedical\DatabaseMedical\bin\Debug\DatabaseMedical.exe
+C:\Users\asus\gitProject\DatabaseMedical\DatabaseMedical\bin\Debug\DatabaseMedical.pdb
+C:\Users\asus\gitProject\DatabaseMedical\DatabaseMedical\obj\Debug\DatabaseMedical.exe
+C:\Users\asus\gitProject\DatabaseMedical\DatabaseMedical\obj\Debug\DatabaseMedical.pdb
